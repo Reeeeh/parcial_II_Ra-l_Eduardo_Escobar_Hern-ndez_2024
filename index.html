@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 50px;
+        }
+        .hero {
+            background-color: #1e4352;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            color: #202020;
+        }
+        .services {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+        }
+        .services h2 {
+            color: #1e4352;
+        }
+        .footer {
+            background-color: #1e4352;
+            color: white;
+            padding: 40px 0;
+        }
+        .footer a {
+            color: #080808;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .card-icon {
+            font-size: 2rem;
+            color: #0c4fcc;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi tienda en linea</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alternar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicios">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h1 class="display-4">¡Bienvenido a Mi tienda en linea!</h1>
+            <p class="lead">En este lugar encontraras una gran variedad de productos.</p>
+            <a href="#servicios" class="btn btn-success btn-lg">Algunos de nuestros servicios</a>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <div class="container">
+            <h2 class="text-center mb-5">Nuestros Servicios</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-airplane fs-1"></i>
+                            <h5 class="card-title">Juguetes</h5>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-tags fs-1"></i>
+                            <h5 class="card-title">Ropa</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            s<i class="bi bi-tv fs-1"></i>
+                            <h5 class="card-title">Tecnologia</h5>
+                        </div>
+                    </div>
+                </div>
+                <!-- Servicio 4: Esterilización -->
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center">
+                        <div class="card-body">
+                            <i class="bi bi-house fs-1"></i>
+                            <h5 class="card-title">Hogar</h5>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Contacto / Footer -->
+    <footer id="contacto" class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Información de Contacto -->
+                <div class="col-md-6 mb-4">
+                    <h5>Contacto</h5>
+                    <p><i class="bi bi-telephone-fill"></i> Teléfono: 7839-8398</p>
+                    <p><i class="bi bi-envelope-fill"></i> Email: MitiendaOnline@gmail.com</p>
+                    <p><i class="bi bi-clock-fill"></i> Horario: Lunes a Viernes: 8am - 6pm</p>
+                </div>
+                <!-- Enlaces Adicionales -->
+                <div class="col-md-6 mb-4">
+                    <h5>Enlaces Útiles</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Política de Privacidad</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Preguntas Frecuentes</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr style="border-color: rgba(255,255,255,0.2);">
+            <p class="text-center mb-0">&copy; 2024 Mi tienda en linea. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS y dependencias (Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Opcional: JavaScript personalizado -->
+</body>
+</html>
